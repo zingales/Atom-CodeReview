@@ -1,0 +1,18 @@
+{
+  "context-menu": {
+    "atom-text-editor": [{
+      "label": "Toggle code-review",
+      "command": "code-review:toggle"
+    }]
+  },
+  "menu": [{
+    "label": "Packages",
+    "submenu": [{
+      "label": "code-review",
+      "submenu": [{
+        "label": "Toggle",
+        "command": "code-review:toggle"
+      }]
+    }]
+  }]
+}
