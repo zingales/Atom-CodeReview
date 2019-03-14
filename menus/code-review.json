@@ -8,7 +8,7 @@
   "menu": [{
     "label": "Packages",
     "submenu": [{
-      "label": "code-review",
+      "label": "CodeReview",
       "submenu": [{
         "label": "Toggle",
         "command": "code-review:toggle"
