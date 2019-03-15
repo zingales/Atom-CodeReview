@@ -2,7 +2,7 @@
   "name": "code-review",
   "main": "./lib/code-review",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "A better way to review Code Reviews",
   "keywords": [],
   "repository": "https://github.com/zingales/Atom-CodeReview",
   "license": "GPL",
@@ -12,5 +12,12 @@
   "dependencies": {
     "fs-extra": "^7.0.1",
     "path": "^0.12.7"
+  },
+  "consumedServices": {
+    "tree-view": {
+      "versions": {
+        "^1.0.0": "consumeTreeView"
+      }
+    }
   }
 }
