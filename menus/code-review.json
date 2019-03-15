@@ -1,8 +1,8 @@
 {
   "context-menu": {
     "atom-text-editor": [{
-      "label": "Toggle code-review",
-      "command": "code-review:toggle"
+      "label": "Open Review With This Hash",
+      "command": "code-review:openCodeReviewInNewWindow"
     }]
   },
   "menu": [{
@@ -10,8 +10,8 @@
     "submenu": [{
       "label": "CodeReview",
       "submenu": [{
-        "label": "Toggle",
-        "command": "code-review:toggle"
+        "label": "Open Review",
+        "command": "code-review:openCodeReviewInNewWindow"
       }]
     }]
   }]

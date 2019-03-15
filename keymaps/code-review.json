@@ -1,5 +1,5 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "code-review:toggle"
+    "ctrl-alt-o": "code-review:openCodeReviewInNewWindow"
   }
 }
